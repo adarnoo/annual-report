@@ -95,6 +95,10 @@ img {
   display: block;
 }
 
+.ar-excel-cell--mobile {
+  display: none;
+}
+
 /* Mobile View */
 
 @media only screen and (min-device-width: 320px) and
@@ -120,6 +124,10 @@ img {
 
   .ar-excel-row--hide {
     display: none;
+  }
+
+  .ar-excel-cell--mobile {
+    display: block;
   }
 
 }
