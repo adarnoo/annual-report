@@ -94,3 +94,32 @@ img {
 .ar-map-container--show {
   display: block;
 }
+
+/* Mobile View */
+
+@media only screen and (min-device-width: 320px) and
+(max-device-width: 480px) and
+(-webkit-min-device-pixel-ratio: 2) {
+
+  body {
+    font-size: 15px;
+  }
+
+  .ar-excel-row {
+    width: 19.5%;
+  }
+
+  .ar-excel-cell {
+    height: 20px;
+    padding: 2px;
+  }
+
+  .ar-excel-row--numbers {
+    width: 2.5%;
+  }
+
+  .ar-excel-row--hide {
+    display: none;
+  }
+
+}
