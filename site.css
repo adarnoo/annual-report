@@ -46,11 +46,6 @@ img {
   opacity: 1;
 }
 
-.ar-excel-cell-inner:hover {
-  opacity: 1;
-}
-
-
 .ar-excel-cell--white {
   color: white;
 }
@@ -95,8 +90,9 @@ img {
   display: block;
 }
 
-.ar-excel-cell--mobile {
-  display: none;
+.ar-excel-cell-inner--mobile {
+  opacity: 0;
+
 }
 
 /* Mobile View */
@@ -126,8 +122,8 @@ img {
     display: none;
   }
 
-  .ar-excel-cell--mobile {
-    display: block;
+  .ar-excel-cell-inner--mobile {
+    opacity: 1;
   }
 
 }
