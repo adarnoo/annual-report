@@ -106,16 +106,16 @@ img {
   }
 
   .ar-excel-row {
-    width: 24.5%;
+    width: 24%;
   }
 
   .ar-excel-cell {
-    height: 20px;
-    padding: 2px;
+    height: 22px;
+    padding: 3px;
   }
 
   .ar-excel-row--numbers {
-    width: 2%;
+    width: 4%;
   }
 
   .ar-excel-row--hide {
