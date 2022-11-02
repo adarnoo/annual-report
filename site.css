@@ -128,8 +128,7 @@ img {
   }
 
   .ar-map-container {
-    width: 60%;
-    margin: 0 20%;
+    display: none;
   }
 
 }
