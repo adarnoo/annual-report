@@ -63,10 +63,6 @@ img {
   text-decoration: underline;
 }
 
-.ar-excel-cell--hover:hover {
-  cursor: pointer;
-}
-
 .ar-text-hover {
   opacity: 0;
   width: 100%;
@@ -83,9 +79,16 @@ img {
   margin: 0 35%;
   width: 30%;
   z-index: 100;
+}
+
+.ar-shadow {
   -webkit-box-shadow: 0px 0px 10px 3px #b9b9b9;
   -moz-box-shadow: 0px 0px 10px 3px #B9B9B9;
   box-shadow: 0px 0px 10px 3px #b9b9b9;
+}
+
+.ar-map-container:hover {
+  cursor: move;
 }
 
 .ar-excel-cell-inner--mobile {
