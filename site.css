@@ -41,6 +41,11 @@ img {
   padding: 2px;
 }
 
+.ar-excel-cell:hover {
+  background-color: red;
+  color: red;
+}
+
 .ar-excel-cell-inner {
   width: 100%;
   opacity: 1;
@@ -53,6 +58,11 @@ img {
 .ar-excel-cell--grey {
   background-color: #F0F0F0;
   text-align: center;
+}
+
+.ar-excel-cell--grey:hover {
+  background-color: yellow;
+  color: black;
 }
 
 .ar-excel-cell--red {
@@ -81,11 +91,11 @@ img {
   z-index: 100;
 }
 
-.ar-shadow {
+/* .ar-shadow {
   -webkit-box-shadow: 0px 0px 10px 3px #b9b9b9;
   -moz-box-shadow: 0px 0px 10px 3px #B9B9B9;
   box-shadow: 0px 0px 10px 3px #b9b9b9;
-}
+} */
 
 .ar-map-container:hover {
   cursor: move;
