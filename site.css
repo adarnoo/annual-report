@@ -15,6 +15,11 @@ img {
   width: 100%;
 }
 
+::selection {
+  background: red;
+  color: red;
+}
+
 
 .ar-page {
   position: relative;
@@ -82,13 +87,29 @@ img {
   opacity: 1;
 }
 
-.ar-map-container {
+.ar-floating-container {
   position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0 35%;
-  width: 30%;
-  z-index: 100;
+}
+
+.ar-floating-container--1 {
+  position: fixed;
+  left: 10%;
+  bottom: 10%;
+  width: 20%;
+}
+
+.ar-floating-container--2 {
+  position: fixed;
+  left: 50%;
+  top: 5%;
+  width: 10%;
+}
+
+.ar-floating-container--3 {
+  position: fixed;
+  top: 40%;
+  right: 15%;
+  width: 8%;
 }
 
 /* .ar-shadow {
@@ -97,7 +118,7 @@ img {
   box-shadow: 0px 0px 10px 3px #b9b9b9;
 } */
 
-.ar-map-container:hover {
+.ar-floating-container:hover {
   cursor: move;
 }
 
@@ -113,20 +134,20 @@ img {
 (-webkit-min-device-pixel-ratio: 2) {
 
   body {
-    font-size: 15px;
+    font-size: 22px;
   }
 
   .ar-excel-row {
-    width: 24%;
+    width: 31%;
   }
 
   .ar-excel-cell {
-    height: 22px;
-    padding: 3px;
+    height: 25px;
+    padding: 5px;
   }
 
   .ar-excel-row--numbers {
-    width: 4%;
+    width: 7%;
   }
 
   .ar-excel-row--hide {
@@ -137,8 +158,16 @@ img {
     opacity: 1;
   }
 
-  .ar-map-container {
+  .ar-floating-container {
     display: none;
+  }
+
+  .ar-floating-container--3 {
+    position: fixed;
+    top: 60%;
+    right: 70%;
+    width: 15%;
+    display: block;
   }
 
 }
